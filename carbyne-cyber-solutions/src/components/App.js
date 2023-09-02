@@ -1,14 +1,16 @@
 import React from 'react'
 import styled from "styled-components"
+import NavBar from './NavBar'
 
 const Container = styled.div`
   height: 100vh;
-  background-color: salmon;
 `
 
 const App = () => {
   return (
-    <Container>Carbyne Cyber Solutions</Container>
+    <Container>
+      <NavBar />
+    </Container>
   )
 }
 
