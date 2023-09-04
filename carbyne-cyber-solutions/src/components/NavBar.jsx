@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
-import CarbyneCyberSolutionsBlack from "../public/Carbyne Cyber Solutions_Black.jpeg"
+import CarbyneCyberSolutionsLogo from "../img/Carbyne Cyber Solutions_Red Logo Black Font.png"
+import { Link, useNavigate } from 'react-router-dom'
 
 const Container = styled.div`
   height: 50px;
@@ -23,6 +24,7 @@ const Right = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  /* font-family: 'Open Sans', sans-serif; */
 `
 
 const Logo = styled.img`
@@ -48,15 +50,15 @@ const NavBar = () => {
     <Container>
       <Wrapper>
         <Left>
-          <Logo src={CarbyneCyberSolutionsBlack} alt="Carbyne Logo" />
+          <Logo src={CarbyneCyberSolutionsLogo} alt="Carbyne Logo" />
         </Left>
         <Right>
         <Menu>
-            <MenuItem>Home</MenuItem>
-            <MenuItem>Services</MenuItem>
-            <MenuItem>Partners</MenuItem>
-            <MenuItem>Leadership</MenuItem>
-            <MenuItem>Contact</MenuItem>
+            <MenuItem><Link to='/'>Home</Link></MenuItem>
+            <MenuItem><Link to='/services'>Services</Link></MenuItem>
+            <MenuItem><Link to='/partners'>Partners</Link></MenuItem>
+            <MenuItem><Link to='/leadership'>Leadership</Link></MenuItem>
+            <MenuItem><Link to='/contact'>Contact</Link></MenuItem>
           </Menu>
         </Right>
 
