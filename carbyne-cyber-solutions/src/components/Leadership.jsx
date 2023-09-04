@@ -2,7 +2,7 @@ import React from 'react'
 
 const Leadership = () => {
   return (
-    <div>Leadership</div>
+    <div style={{backgroundColor: 'coral'}}>This is Leadership Page</div>
   )
 }
 

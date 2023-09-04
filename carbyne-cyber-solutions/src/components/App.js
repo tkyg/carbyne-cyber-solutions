@@ -10,15 +10,15 @@ import Leadership from './Leadership'
 import Contact from './Contact'
 
 const Container = styled.div`
-  height: 100vh;
+  height: 100%;
 `
 
 const App = () => {
   return (
+    <>
     <Router>
-    <Container>
       <NavBar />
-    </Container>
+    <Container>
     <Routes>
       <Route exact path="/" element={<Home />}/>
       <Route exact path="/services" element={<Services />}/>
@@ -26,8 +26,10 @@ const App = () => {
       <Route exact path="/leadership" element={<Leadership />}/>
       <Route exact path="/contact" element={<Contact />}/>
     </Routes>
+    </Container>
     <Footer />
-    </Router>
+</Router>
+    </>
   )
 }
 

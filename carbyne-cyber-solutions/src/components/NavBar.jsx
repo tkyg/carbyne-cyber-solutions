@@ -4,13 +4,17 @@ import CarbyneCyberSolutionsLogo from "../img/Carbyne Cyber Solutions_Red Logo B
 import { Link, useNavigate } from 'react-router-dom'
 
 const Container = styled.div`
-  height: 50px;
+  width: 100%;
+  /* height: 50px; */
+  position: sticky;
 `
 const Wrapper = styled.div`
   padding: 10px 20px;
   display: flex;
   align-items: cover;
   justify-content: space-between;
+  
+  /* background-color: aqua; */
 `
 
 const Left = styled.div`
@@ -36,13 +40,14 @@ const Logo = styled.img`
 const Menu = styled.ul`
   display: flex;
   list-style: none;
-
+  
 `;
 const MenuItem = styled.li`
   margin-right: 30px;
   font-size: 20px;
   font-weight: bold;
   color: gray;
+  
 `;
 
 const NavBar = () => {
@@ -54,14 +59,13 @@ const NavBar = () => {
         </Left>
         <Right>
         <Menu>
-            <MenuItem><Link to='/'>Home</Link></MenuItem>
-            <MenuItem><Link to='/services'>Services</Link></MenuItem>
-            <MenuItem><Link to='/partners'>Partners</Link></MenuItem>
-            <MenuItem><Link to='/leadership'>Leadership</Link></MenuItem>
-            <MenuItem><Link to='/contact'>Contact</Link></MenuItem>
+            <MenuItem><Link to='/' style={{textDecoration: 'none', color: 'gray'}}>Home</Link></MenuItem>
+            <MenuItem><Link to='/services' style={{textDecoration: 'none', color: 'gray'}}>Services</Link></MenuItem>
+            <MenuItem><Link to='/partners' style={{textDecoration: 'none', color: 'gray'}}>Partners</Link></MenuItem>
+            <MenuItem><Link to='/leadership' style={{textDecoration: 'none', color: 'gray'}}>Leadership</Link></MenuItem>
+            <MenuItem><Link to='/contact' style={{textDecoration: 'none', color: 'gray'}}>Contact</Link></MenuItem>
           </Menu>
         </Right>
-
       </Wrapper>       
     </Container>
   )
