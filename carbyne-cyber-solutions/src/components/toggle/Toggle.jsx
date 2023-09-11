@@ -2,7 +2,9 @@ import React from 'react'
 
 const Toggle = () => {
   return (
-    <div>Toggle</div>
+    <div>Toggle
+      
+    </div>
   )
 }
 
