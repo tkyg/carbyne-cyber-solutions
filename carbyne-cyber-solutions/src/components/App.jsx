@@ -2,7 +2,7 @@ import React from 'react'
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 // import styled from "styled-components"
 import NavBar from './navbar/NavBar'
-import Footer from './footer/Footer'
+// import Footer from './footer/Footer'
 import Home from './home/Home'
 import Services from './services/Services'
 import Partners from './partners/Partners'

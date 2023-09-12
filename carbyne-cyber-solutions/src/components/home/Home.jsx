@@ -8,10 +8,14 @@ const Home = () => {
       <div className='left'>
         <div className='imgContainer'>
           <img src={carbyneLogo} alt='carbyneLogo' />
-          <div>Protecting Your Future</div>
         </div>
       </div>
-      <div className='right'>This is Our Mission Statement</div>
+      <div className='right'>
+        <div className='wrapper'>
+          <h2 id="mission">This Is Our Mission Statement</h2>
+          <h3 id='tag'>This is what we do</h3>
+        </div>
+      </div>
     </div>
   )
 }
