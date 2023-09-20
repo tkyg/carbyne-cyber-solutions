@@ -9,6 +9,7 @@ import Partners from './partners/Partners'
 import Leadership from './leadership/Leadership'
 import Contact from './contact/Contact'
 import './app.css'
+import About from "../components/about/About"
 // import Toggle from './toggle/Toggle'
 
 // const Container = styled.div`
@@ -48,6 +49,7 @@ const App = () => {
         <Services />
         <Partners />
         <Leadership />
+        <About />
         <Contact />
       </div>
     {/* <Footer /> */}

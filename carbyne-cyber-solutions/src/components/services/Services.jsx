@@ -2,7 +2,7 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <div style={{backgroundColor: 'teal'}}>Services</div>
+    <div style={{backgroundColor: "#DFE3E6"}}>Services</div>
   )
 }
 

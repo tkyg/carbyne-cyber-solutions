@@ -4,8 +4,9 @@ import { SocialIcon } from 'react-social-icons'
 
 
 const Container = styled.div`
-  height: 100vh;
+  height: 80vh;
   position: relative;
+  background-color: #2a2925;
 `
 // const Wrapper = styled.div`
 //   width: 20px;
@@ -36,7 +37,9 @@ const Title = styled.h1`
 const Description = styled.p`
   font-weight: 200;
   font-size: 60px;
-  width: 80%
+  width: 80%;
+  font-family: 'Barlow';
+  color: white;
 `
 
 const Message = styled.textarea`
@@ -65,7 +68,7 @@ const Contact = () => {
         <Main>
           <Right>
             <Description>
-              Contact Us
+              CONTACT US
             </Description>
             <form ref={formRef} onSubmit={handleSubmit}>
               <input type="text" placeholder='Name' name="user_name" />

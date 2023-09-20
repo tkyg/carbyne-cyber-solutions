@@ -1,0 +1,33 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #EBEEF0; /* Light gray background color */
+  padding: 0px; /* Add some padding for better readability */
+  /* box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); Add a shadow for depth */
+}
+
+.aTitle {
+  margin: 3vw 0; /* Slightly increase the top and bottom margin */
+  font-family: 'Barlow', sans-serif;
+  font-size: 30px; /* Increase the font size for the title */
+  text-align: left;
+  color: #333; /* Darken the text color for better contrast */
+}
+
+.aMission { 
+  font-family: 'Barlow', sans-serif;
+  font-size: 22px;
+  color: #333;
+}
+
+p {
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: #555; /* Adjust the text color for readability */
+  line-height: 1.5; /* Increase line height for better spacing */
+  margin: 0;
+  padding: 10px 40px;
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import carbyneCyberLogo from '../../img/CarbyneCyberSolutions_RedLogoBlackFont.png'
+import carbyneCyberLogo from '../../img/Logo2.png'
 import networkImg from "../../img/networkBackground.jpg"
 import "./navbar.css"
 
@@ -17,6 +17,7 @@ const NavBar = () => {
             <li className='navBarItem'>Services</li>
             <li className='navBarItem'>Leadership</li>
             <li className='navBarItem'>Partners</li>
+            <li className='navBarItem'>Company</li>
             <li className='navBarItem'>Contact Us</li>
           </ul>
         </div>
